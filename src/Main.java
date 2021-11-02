@@ -14,14 +14,19 @@ public class Main {
     static int iterativesOf9(int n) {
         return n * 9;
     }
-    
+
     public static void main(String[] args) {
         
-        /* Create 3 functions:
-         * 1. Iterate multiples of 7 up to 100 
-         * 2. Iterate multiples of 8 up to 200
-         * 3. Iterate multiples of 9 up to 300
-        */ 
+        /* Coding challenge: 
+         *
+         * Create 3 functions:
+         * 1. Iterate multiples of 7 
+         * 2. Iterate multiples of 8
+         * 3. Iterate multiples of 9
+         * 
+         * Then output respective functions up to and including 100, 200, 300.
+        */
+
         int n = 1;
         while (iterativesOf7(n) <= 100) {
             System.out.println(iterativesOf7(n));

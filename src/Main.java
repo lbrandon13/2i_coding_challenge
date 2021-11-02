@@ -1,20 +1,21 @@
 public class Main {
 
     // Iterate multiples of 7
-    static int iterativesOf7(int n){
+    static int iterativesOf7(int n) {
         return n * 7;
     }
 
-    // Iterate multipls of 8
-    static int iterativesOf8(int n){
+    // Iterate multiples of 8
+    static int iterativesOf8(int n) {
         return n * 8;
     }
 
     //Iterate multiples of 9
-    static int iterativesOf9(int n){
+    static int iterativesOf9(int n) {
         return n * 9;
     }
-    public static void main(String[] args){
+    
+    public static void main(String[] args) {
         
         /* Create 3 functions:
          * 1. Iterate multiples of 7 up to 100 

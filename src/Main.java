@@ -4,6 +4,11 @@ public class Main {
     static int iterativesOf7(int n){
         return n * 7;
     }
+
+    // Iterate multipls of 8
+    static int iterativesOf8(int n){
+        return n * 8;
+    }
     public static void main(String[] args){
         
         /* Create 3 functions:
@@ -15,6 +20,12 @@ public class Main {
         while (iterativesOf7(n) <= 100) {
             System.out.println(iterativesOf7(n));
             n++;
+        }
+
+        int i = 1;
+        while (iterativesOf8(i) <= 200) {
+            System.out.println(iterativesOf8(i));
+            i++;
         }
         
     }

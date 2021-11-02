@@ -9,6 +9,11 @@ public class Main {
     static int iterativesOf8(int n){
         return n * 8;
     }
+
+    //Iterate multiples of 9
+    static int iterativesOf9(int n){
+        return n * 9;
+    }
     public static void main(String[] args){
         
         /* Create 3 functions:
@@ -26,6 +31,12 @@ public class Main {
         while (iterativesOf8(i) <= 200) {
             System.out.println(iterativesOf8(i));
             i++;
+        }
+
+        int j = 1;
+        while (iterativesOf9(j) <= 300) {
+            System.out.println(iterativesOf9(j));
+            j++;
         }
         
     }
